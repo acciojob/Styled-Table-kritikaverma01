@@ -4,12 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student Statistics</title>
     <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- add table here -->
 
-        
+    <style>
+        table {
+            width: 80%;
+            margin: 40px auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            border: 1px solid #333;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #333;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:hover {
+            background-color: #d9f2d9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Maths</th>
+                <th>Science</th>
+                <th>English</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Rahul</td>
+                <td>85</td>
+                <td>90</td>
+                <td>88</td>
+                <td>263</td>
+            </tr>
+
+            <tr>
+                <td>Priya</td>
+                <td>92</td>
+                <td>87</td>
+                <td>95</td>
+                <td>274</td>
+            </tr>
+
+            <tr>
+                <td>Aman</td>
+                <td>78</td>
+                <td>82</td>
+                <td>80</td>
+                <td>240</td>
+            </tr>
+
+            <tr>
+                <td>Neha</td>
+                <td>89</td>
+                <td>94</td>
+                <td>91</td>
+                <td>274</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>
